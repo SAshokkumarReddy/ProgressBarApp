@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html lang="en">
+	<head>
+	  
+	  <title>ProgressBars</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  
+	  <link rel="stylesheet" type="text/css" href="../ProgressBarApp/css/ProgressBar.css">
+	  
+	  <script src="../ProgressBarApp/js/Button1.js"></script>
+	  <script src="../ProgressBarApp/js/Button2.js"></script>
+	  <script src="../ProgressBarApp/js/Button3.js"></script>
+	  <script src="../ProgressBarApp/js/Button4.js"></script>	  
+		
+	</head>
+
+	<body>
+
+		<div class="container" id="ProgressBar">
+
+			<h2 align='centre'> Progress Bar</h2>
+			  
+			<div class="progress progress-striped active outer" aria-valuemax="200" aria-valuenow="60" aria-valuemin="0" style="width:400px;" id ="First">
+				<span class="progress-bar inner" id="progress1" width="40%"> </span><span class="gridSpan" id="gridSpan1"></span>
+			</div>
+			
+			<div class="progress progress-striped active outer" aria-valuemax="200" aria-valuenow="60" aria-valuemin="0" style="width:400px;" id ="First">
+				<span class="progress-bar inner" id="progress2" width="40%">  </span><span class="gridSpan" id="gridSpan2"></span>
+			</div>
+			
+			<div class="progress progress-striped active outer" aria-valuemax="200" aria-valuenow="60" aria-valuemin="0" style="width:400px;" id ="First">
+				<span class="progress-bar inner" id="progress3" width="40%">  </span><span class="gridSpan" id="gridSpan3"></span>
+			</div>
+
+			
+			<select id="ProgressBars" class="pbar_color">
+			  <option value="select1" selected>progress1</option>
+			  <option value="select2">progress2</option>
+			  <option value="select3">progress3</option>
+ 
+			</select>
+
+			<button id="code1"  type="button" class="btn btn-success" style="width:75px;">-20</button>
+			<button id="code2"  type="button" class="btn btn-success" style="width:75px;">-10</button>
+			<button id="code3"  type="button" class="btn btn-success" style="width:75px;">10+</button>
+			<button id="code4"  type="button" class="btn btn-success" style="width:75px;">20+</button>
+
+		</div>
+
+	</body>
+</html>
+.

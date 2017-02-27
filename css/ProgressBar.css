@@ -1,0 +1,62 @@
+
+#ProgressBar {
+    border: 2px solid #a1a1a1;
+    padding: 30px 40px;
+    background: #1D596E ;
+    width: 500px;
+    border-radius: 25px;
+    left: 50%;
+    top: 50%;
+    margin-left: -17%;
+    position: absolute;
+    margin-top: -25%;
+	color: white;
+}
+.pbar_color
+{
+	color:black;
+}
+
+
+h2{
+	color: white;
+	padding: 20px;
+	text-align:center;
+}
+
+
+#First{
+	background-color: #f3f3f3;
+	border: 0;
+	height: 25px;
+	border-radius: 10px;
+}
+
+.gridSpan{
+    display:inline-block;
+    margin-top: 5px;
+    color: #676767;
+    position: relative;
+    z-index:2;
+	color: black;
+}
+
+
+
+.outer{
+    width: 70%;
+    margin:20px;
+    height: 30px;
+    border: 1px solid gray;
+    overflow: hidden;
+    border-radius: 15px;
+    position:relative;
+    text-align: center;
+	color:black;
+}
+
+.inner{
+display:inline-block;
+position:absolute;
+left:0px;
+}
